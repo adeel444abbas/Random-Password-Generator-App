@@ -1,0 +1,57 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  background-color: grey;
+  padding: 20px;
+  width: max-content;
+  margin-top: 40px;
+  text-align: center;
+}
+input[type=text]{
+  padding: 10px;
+  width: 300px;
+  outline: none;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 16px;
+}
+.header{
+  padding: 20px;
+}
+.copyBtn{
+  background-color: blue;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 16px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
